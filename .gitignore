@@ -1,0 +1,43 @@
+# Compiled class files
+*.class
+*.jar
+*.war
+*.ear
+
+# Logs
+*.log
+logs/
+*.tmp
+
+# IDE-specific files (Eclipse, IntelliJ, NetBeans)
+.idea/
+*.iml
+*.ipr
+*.iws
+.classpath
+.project
+.settings/
+
+# Maven & Gradle
+target/
+*.mvn/
+mvnw
+mvnw.cmd
+.gradle/
+build/
+!src/main/resources/
+!src/main/java/
+
+# Dependency directories
+lib/
+bin/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Lombok cache
+.lombok/
+
+# Test reports
+test-output/
