@@ -47,6 +47,9 @@ public class App {
         myAnimal1.makeSound(); 
 
         myAnimal2.display();
-        myAnimal2.makeSound(); 
+        myAnimal2.makeSound();
+        
+        Person person1 = new Person(1, "John Doe", "123 Main St", "555-555-5555", " john@gmail.com");
+        person1.display();
     }
 }
